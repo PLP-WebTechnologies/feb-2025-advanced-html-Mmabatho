@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>Html Lists, Images, Tables & Forms 
+
+        </title>
+    </head>
+    <body>
+        <h1>HTML Lists</h1>
+        <!--Ordered list and identifying which number to start from-->
+        <h3> Ordered Lists  </h3>
+        <ol type="i" start="5">
+            <li> Software Engineering </li>
+            <li>Web Dev</li>
+            <li> Python</li>
+            <li>Database</li>
+            <li>Startup Building</li>
+        </ol> 
+        <ol type="a" start="5">
+            <li> Software Engineering </li>
+            <li>Web Dev</li>
+            <li> Python</li>
+            <li>Database</li>
+            <li>Startup Building</li>
+        </ol>
+        <!--Ul defines unordered lists and they do not use numbers -->
+<h3>Unordered List</h3>
+        <ul type = "square"> 
+            <li> Mr Gerals  </li>
+            <li>Ms Susan </li>
+            <li> Mr Eddy</li>
+            <li>Ms Nelly </li>
+            <li>Mr chakin</li>
+        </ul>
+
+        <!--definitiaon list allows you to make margins when writting -->
+        <dl >
+        <H4>Definiton Lists </H4>
+        <dt>HTML </dt>
+        <br>
+        <dd>Hyper test Markup Language </dd>
+        <br>
+        <dt>SQL</dt>
+        <dd>Structired Query language</dd>
+    </dl>
+<!--embedd an image on the webpage and add the size attributes 'src' specifies the location-->
+    <h5>HTML Images </h5>
+<img src="mmabatho.jpg" alt="mmabatho's picture" width="250" height="300"> 
+<br>
+<img src="https://images.pexels.com/photos/13249332/pexels-photo-13249332.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+alt="mmabatho's picture" width="550" height="350"> 
+
+<br>
+<!--Table denotes information on the table has a header body and footer, tr table row, th table head, td table data  -->
+<h5>HTML Tables </h5>
+<table border = "5">    
+    <caption>my friend lists    </caption>
+    <thead>
+        <tr>
+            <Th colspan="2">Name </Th>
+            <Th>Email  </Th>
+            <Th>Country </Th></tr>
+    </thead>
+    <tbody><tr>
+        <td>Mmabatho </td>
+        <td>naseba </td>
+        <td>nmmaba2@gmail.com </td>
+        <td>SA </td>
+    </tr>
+    <tr>
+        <td>Madida </td>
+        <td>DIda@gmail.com </td>
+        <td>SA </td>
+    </tr>
+    <br>
+    <tr>
+        <td>Keitumetse </td>
+        <td>k2@gmail.com </td>
+        <td>SA </td>
+    </tr>
+</tbody>
+<tfoot><tr><Th>Name </Th>
+    <Th>Email  </Th>
+    <Th>Country </Th></tr> </tfoot>
+
+</table>
+
+
+<h2>HTML Forms </h2>
+<form acton="" method=""> 
+<label for="name ">Name: </label>
+<input type="text" id="Student_name" name="Student_name" required>
+<br><br> 
+<label for="gender">Gender:</label>
+<input type="radio" id="gender" name="genser" value="female"> Female
+<input type="radio" id="gender" name="genser" value="male"> Male
+<br><br> 
+<label for="hobbies">Hobbies:</label>
+<input type="checkbox" name="hobbies" value="sports "> Sports  
+<input type="checkbox" name="hobbies" value="music "> Music  
+<input type="checkbox" name="hobbies" value="art "> Art
+<input type="checkbox" name="hobbies" value="travel"> Travel 
+<br><br> 
+<label for="country"> Country: </label>
+<Select name="country" id="country">
+    <option>-- Select COuntry --</option>
+    <option value="Nigeria">Nigeria</option>
+    <option value="Namibia">Namibia</option>
+    <option value="South_Africa">South Africa</option>
+</Select>
+<br><br> 
+<label for="descrption ">Describe Your Self:</label>
+<textarea id="descrprion " name="descriotion"></textarea>
+<button> Register </button>
+<input type="button" value="Cancel">
+
+
+
+</form>
+    </body>
+
+</html>
